@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from "react"
 import ImageCard from "./Components/ImageCard.jsx";
 import SearchBar from "./Components/SearchBar.jsx";

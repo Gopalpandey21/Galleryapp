@@ -5,7 +5,7 @@ function ImageCard({ image }) {
   const downloadImage = (url, user) => {
     const link = document.createElement('a');
     link.href = url;
-    link.setAttribute('download', `${user}-${image.id}.jpg`); // Set the file name
+    link.setAttribute('download', `${user}-${image.id}.jpg`); 
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
